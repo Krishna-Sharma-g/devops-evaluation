@@ -5,11 +5,8 @@ tools {
     }
 
     stages {
-        stage('Checkout Code') {
-            steps {
-                echo 'Cloning the repository...'
-            }
-        }
+    
+        
 
         stage('Install Dependencies') {
             steps {
