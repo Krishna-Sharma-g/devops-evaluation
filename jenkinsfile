@@ -8,7 +8,6 @@ tools {
         stage('Checkout Code') {
             steps {
                 echo 'Cloning the repository...'
-                checkout scm
             }
         }
 
